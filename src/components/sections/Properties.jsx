@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { MapPin, Bed, Maximize, TrendingDown, Users, ArrowRight, Star, ChevronDown } from "lucide-react";
 import { properties, cities, bhkOptions, statusOptions } from "../../data/properties";
-import OptimizedImage from "./OptimizedImage";
+import OptimizedImage from "../OptimizedImage";
 
 export default function FeaturedProperties() {
   const [city, setCity] = useState("All Cities");
