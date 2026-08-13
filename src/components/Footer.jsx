@@ -88,9 +88,13 @@ export default function Footer() {
           <p className="text-gray-400 text-xs sm:text-sm">
             &copy; 2025 BigPockets. All rights reserved.
           </p>
-          <p className="text-gray-500 text-xs sm:text-sm flex items-center gap-1">
-            <Heart className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-red-500 fill-red-500" /> in India
-          </p>
+          <div className="flex items-center gap-3 text-xs sm:text-sm text-gray-400">
+            <span>Made by <a href="https://www.curiouskaizer.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors underline underline-offset-2" title="Curious Kaizer - Web Development Company in Delhi">Curious Kaizer</a></span>
+            <span>•</span>
+            <p className="text-gray-500 flex items-center gap-1">
+              <Heart className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-red-500 fill-red-500" /> in India
+            </p>
+          </div>
         </div>
       </div>
     </footer>
